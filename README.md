@@ -38,18 +38,10 @@ The completed experiments used learning rate 4e-5, effective batch 32, LoRA rank
 - [scripts/build_notebook.py](scripts/build_notebook.py): regenerate the notebook without executing it.
 - [scripts/verify_results.py](scripts/verify_results.py): verify stored metrics and unchanged prediction files without loading a model.
 - [scripts/wer_aggregation_diagnostic.py](scripts/wer_aggregation_diagnostic.py): supplementary WER aggregation sensitivity analysis.
-- [tests/test_core.py](tests/test_core.py): small synthetic objective, gradient, cache and notebook-structure tests.
 - [runs/](runs/): completed experiment results and negative ablation evidence.
 - [docs/methodology.md](docs/methodology.md): paper correspondence and implementation assumptions.
 - [docs/results.md](docs/results.md): result interpretation and known limitations.
 - `references/research_paper.pdf`: the supplied source paper, retained locally; PDFs are excluded from version control.
 
-Validate code and stored results without running training or an ASR notebook:
-
-```bash
-CUDA_VISIBLE_DEVICES="" FAIR_ASR_HEADLESS=1 python3 -m unittest discover -s tests -v
-python3 scripts/verify_results.py
-python3 scripts/build_notebook.py
-```
 
 Downloaded audio, feature caches, environments, generated working outputs and model weights are ignored. Measured results, unchanged prediction text and histories remain included. No model weights are bundled. Respect the model and dataset licenses when reusing or redistributing their contents; this repository does not grant additional rights to third-party material.
