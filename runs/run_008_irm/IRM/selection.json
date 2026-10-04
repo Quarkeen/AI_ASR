@@ -1,0 +1,1528 @@
+{
+  "selected_epoch": 2,
+  "status": "finetuned_selected",
+  "baseline_holdout": {
+    "per_group_wer": {
+      "7": 34.762979683972915,
+      "14": 20.71320182094082,
+      "0": 21.72701949860724,
+      "1": 27.25922783198982,
+      "15": 64.8854961832061,
+      "17": 29.52155625657203,
+      "20": 30.503335354760463,
+      "11": 26.320845341018252,
+      "9": 45.74939564867043,
+      "25": 52.15311004784689,
+      "3": 32.880434782608695,
+      "18": 21.281699794379712,
+      "10": 24.226110363391655,
+      "21": 24.78902953586498
+    },
+    "macro_wer": 32.626674438845,
+    "minmax_gap": 44.172294362265276,
+    "groups": 14,
+    "per_group_error_counts": {
+      "7": {
+        "reference_words": 1329,
+        "hits": 912,
+        "substitutions": 195,
+        "deletions": 222,
+        "insertions": 45,
+        "utterances": 178
+      },
+      "14": {
+        "reference_words": 1318,
+        "hits": 1074,
+        "substitutions": 104,
+        "deletions": 140,
+        "insertions": 29,
+        "utterances": 133
+      },
+      "0": {
+        "reference_words": 2154,
+        "hits": 1738,
+        "substitutions": 173,
+        "deletions": 243,
+        "insertions": 52,
+        "utterances": 215
+      },
+      "1": {
+        "reference_words": 4714,
+        "hits": 3539,
+        "substitutions": 401,
+        "deletions": 774,
+        "insertions": 110,
+        "utterances": 286
+      },
+      "15": {
+        "reference_words": 1179,
+        "hits": 885,
+        "substitutions": 139,
+        "deletions": 155,
+        "insertions": 471,
+        "utterances": 82
+      },
+      "17": {
+        "reference_words": 3804,
+        "hits": 2734,
+        "substitutions": 375,
+        "deletions": 695,
+        "insertions": 53,
+        "utterances": 411
+      },
+      "20": {
+        "reference_words": 3298,
+        "hits": 2399,
+        "substitutions": 364,
+        "deletions": 535,
+        "insertions": 107,
+        "utterances": 239
+      },
+      "11": {
+        "reference_words": 2082,
+        "hits": 1578,
+        "substitutions": 245,
+        "deletions": 259,
+        "insertions": 44,
+        "utterances": 140
+      },
+      "9": {
+        "reference_words": 4964,
+        "hits": 3228,
+        "substitutions": 932,
+        "deletions": 804,
+        "insertions": 535,
+        "utterances": 252
+      },
+      "25": {
+        "reference_words": 627,
+        "hits": 336,
+        "substitutions": 165,
+        "deletions": 126,
+        "insertions": 36,
+        "utterances": 136
+      },
+      "3": {
+        "reference_words": 368,
+        "hits": 255,
+        "substitutions": 46,
+        "deletions": 67,
+        "insertions": 8,
+        "utterances": 23
+      },
+      "18": {
+        "reference_words": 2918,
+        "hits": 2352,
+        "substitutions": 248,
+        "deletions": 318,
+        "insertions": 55,
+        "utterances": 118
+      },
+      "10": {
+        "reference_words": 1486,
+        "hits": 1166,
+        "substitutions": 116,
+        "deletions": 204,
+        "insertions": 40,
+        "utterances": 98
+      },
+      "21": {
+        "reference_words": 948,
+        "hits": 731,
+        "substitutions": 77,
+        "deletions": 140,
+        "insertions": 18,
+        "utterances": 91
+      }
+    },
+    "prediction_diagnostics": {
+      "utterances": 2402,
+      "reference_words": 31189,
+      "hypothesis_words": 28110,
+      "hypothesis_to_reference_word_ratio": 0.9012792971881112,
+      "empty_hypothesis_count": 0,
+      "mean_repeated_4gram_fraction": 0.004608344567482528,
+      "max_hypothesis_words": 440,
+      "mean_hypothesis_words": 11.702747710241466,
+      "per_group": {
+        "7": {
+          "utterances": 178,
+          "reference_words": 1329,
+          "hypothesis_words": 1152,
+          "hypothesis_to_reference_word_ratio": 0.8668171557562077,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0037453183520599256,
+          "max_hypothesis_words": 33,
+          "mean_hypothesis_words": 6.47191011235955,
+          "insertions_rate_percent": 3.386004514672686,
+          "deletions_rate_percent": 16.704288939051917,
+          "substitutions_rate_percent": 14.672686230248306
+        },
+        "14": {
+          "utterances": 133,
+          "reference_words": 1318,
+          "hypothesis_words": 1207,
+          "hypothesis_to_reference_word_ratio": 0.9157814871016692,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.003134318556289699,
+          "max_hypothesis_words": 47,
+          "mean_hypothesis_words": 9.075187969924812,
+          "insertions_rate_percent": 2.200303490136571,
+          "deletions_rate_percent": 10.622154779969652,
+          "substitutions_rate_percent": 7.890743550834598
+        },
+        "0": {
+          "utterances": 215,
+          "reference_words": 2154,
+          "hypothesis_words": 1963,
+          "hypothesis_to_reference_word_ratio": 0.9113277623026926,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0,
+          "max_hypothesis_words": 69,
+          "mean_hypothesis_words": 9.130232558139534,
+          "insertions_rate_percent": 2.4141132776230267,
+          "deletions_rate_percent": 11.28133704735376,
+          "substitutions_rate_percent": 8.031569173630455
+        },
+        "1": {
+          "utterances": 286,
+          "reference_words": 4714,
+          "hypothesis_words": 4050,
+          "hypothesis_to_reference_word_ratio": 0.859142978362325,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0055244807449005015,
+          "max_hypothesis_words": 119,
+          "mean_hypothesis_words": 14.160839160839162,
+          "insertions_rate_percent": 2.333474756045821,
+          "deletions_rate_percent": 16.41917691981332,
+          "substitutions_rate_percent": 8.506576156130675
+        },
+        "15": {
+          "utterances": 82,
+          "reference_words": 1179,
+          "hypothesis_words": 1495,
+          "hypothesis_to_reference_word_ratio": 1.2680237489397794,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.013606139541344285,
+          "max_hypothesis_words": 440,
+          "mean_hypothesis_words": 18.23170731707317,
+          "insertions_rate_percent": 39.94910941475827,
+          "deletions_rate_percent": 13.146734520780322,
+          "substitutions_rate_percent": 11.789652247667515
+        },
+        "17": {
+          "utterances": 411,
+          "reference_words": 3804,
+          "hypothesis_words": 3162,
+          "hypothesis_to_reference_word_ratio": 0.831230283911672,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0036393402283438664,
+          "max_hypothesis_words": 61,
+          "mean_hypothesis_words": 7.693430656934306,
+          "insertions_rate_percent": 1.3932702418506835,
+          "deletions_rate_percent": 18.27024185068349,
+          "substitutions_rate_percent": 9.858044164037855
+        },
+        "20": {
+          "utterances": 239,
+          "reference_words": 3298,
+          "hypothesis_words": 2870,
+          "hypothesis_to_reference_word_ratio": 0.8702243784111583,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.007619650476983463,
+          "max_hypothesis_words": 95,
+          "mean_hypothesis_words": 12.00836820083682,
+          "insertions_rate_percent": 3.244390539721043,
+          "deletions_rate_percent": 16.221952698605214,
+          "substitutions_rate_percent": 11.036992116434202
+        },
+        "11": {
+          "utterances": 140,
+          "reference_words": 2082,
+          "hypothesis_words": 1867,
+          "hypothesis_to_reference_word_ratio": 0.8967339097022095,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.00403680911625599,
+          "max_hypothesis_words": 56,
+          "mean_hypothesis_words": 13.335714285714285,
+          "insertions_rate_percent": 2.1133525456292026,
+          "deletions_rate_percent": 12.439961575408262,
+          "substitutions_rate_percent": 11.767531219980787
+        },
+        "9": {
+          "utterances": 252,
+          "reference_words": 4964,
+          "hypothesis_words": 4695,
+          "hypothesis_to_reference_word_ratio": 0.9458098307816277,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.009740367927055,
+          "max_hypothesis_words": 222,
+          "mean_hypothesis_words": 18.63095238095238,
+          "insertions_rate_percent": 10.777598710717164,
+          "deletions_rate_percent": 16.19661563255439,
+          "substitutions_rate_percent": 18.77518130539887
+        },
+        "25": {
+          "utterances": 136,
+          "reference_words": 627,
+          "hypothesis_words": 537,
+          "hypothesis_to_reference_word_ratio": 0.8564593301435407,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0,
+          "max_hypothesis_words": 35,
+          "mean_hypothesis_words": 3.948529411764706,
+          "insertions_rate_percent": 5.741626794258373,
+          "deletions_rate_percent": 20.095693779904305,
+          "substitutions_rate_percent": 26.31578947368421
+        },
+        "3": {
+          "utterances": 23,
+          "reference_words": 368,
+          "hypothesis_words": 309,
+          "hypothesis_to_reference_word_ratio": 0.8396739130434783,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0025575447570332487,
+          "max_hypothesis_words": 71,
+          "mean_hypothesis_words": 13.434782608695652,
+          "insertions_rate_percent": 2.1739130434782608,
+          "deletions_rate_percent": 18.206521739130434,
+          "substitutions_rate_percent": 12.5
+        },
+        "18": {
+          "utterances": 118,
+          "reference_words": 2918,
+          "hypothesis_words": 2655,
+          "hypothesis_to_reference_word_ratio": 0.9098697738176833,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.006145116449919306,
+          "max_hypothesis_words": 85,
+          "mean_hypothesis_words": 22.5,
+          "insertions_rate_percent": 1.8848526387936944,
+          "deletions_rate_percent": 10.89787525702536,
+          "substitutions_rate_percent": 8.498971898560658
+        },
+        "10": {
+          "utterances": 98,
+          "reference_words": 1486,
+          "hypothesis_words": 1322,
+          "hypothesis_to_reference_word_ratio": 0.8896366083445492,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0017292767220789948,
+          "max_hypothesis_words": 76,
+          "mean_hypothesis_words": 13.489795918367347,
+          "insertions_rate_percent": 2.6917900403768504,
+          "deletions_rate_percent": 13.728129205921938,
+          "substitutions_rate_percent": 7.806191117092867
+        },
+        "21": {
+          "utterances": 91,
+          "reference_words": 948,
+          "hypothesis_words": 826,
+          "hypothesis_to_reference_word_ratio": 0.8713080168776371,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0,
+          "max_hypothesis_words": 72,
+          "mean_hypothesis_words": 9.076923076923077,
+          "insertions_rate_percent": 1.8987341772151898,
+          "deletions_rate_percent": 14.767932489451477,
+          "substitutions_rate_percent": 8.122362869198312
+        }
+      }
+    },
+    "evaluation_rows_fingerprint": "4019a750fdb885e4b460a8e2a1586312a6debcf1e4eb904ebbbdf785aa367217",
+    "teacher_forced_diagnostics": {
+      "mode": "teacher_forced_eval_no_parameter_updates",
+      "groups": 14,
+      "utterances": 2402,
+      "per_group": {
+        "7": {
+          "ce": 2.2156194374802407,
+          "scale_derivative": 0.6728033161266926,
+          "entropy_nats": 1.542816058973248,
+          "max_token_probability": 0.6677300211753738,
+          "token_accuracy": 0.6692865012067087,
+          "logit_std": 1.4976690820093905,
+          "utterances": 178,
+          "valid_target_tokens": 2170,
+          "scale_derivative_variance": 0.4481317363469889
+        },
+        "14": {
+          "ce": 1.9554697286365623,
+          "scale_derivative": 0.7695378054745663,
+          "entropy_nats": 1.1859318892982669,
+          "max_token_probability": 0.7239752364786047,
+          "token_accuracy": 0.7065116339608243,
+          "logit_std": 1.5038780780663168,
+          "utterances": 133,
+          "valid_target_tokens": 1924,
+          "scale_derivative_variance": 0.39505950440076987
+        },
+        "3": {
+          "ce": 2.1907589979793713,
+          "scale_derivative": 0.7559275760558313,
+          "entropy_nats": 1.4348314067591792,
+          "max_token_probability": 0.6817168671151866,
+          "token_accuracy": 0.6615852545136991,
+          "logit_std": 1.5590929414915002,
+          "utterances": 23,
+          "valid_target_tokens": 466,
+          "scale_derivative_variance": 0.3095317815519735
+        },
+        "0": {
+          "ce": 2.056925610470217,
+          "scale_derivative": 0.912758021691251,
+          "entropy_nats": 1.144167564150899,
+          "max_token_probability": 0.7279333190862523,
+          "token_accuracy": 0.6841894555923551,
+          "logit_std": 1.514951880588088,
+          "utterances": 215,
+          "valid_target_tokens": 3063,
+          "scale_derivative_variance": 0.42089533863669476
+        },
+        "1": {
+          "ce": 2.0219115884779217,
+          "scale_derivative": 0.6835024799016741,
+          "entropy_nats": 1.338409066617072,
+          "max_token_probability": 0.7014047956758446,
+          "token_accuracy": 0.667461582622328,
+          "logit_std": 1.5469873780970806,
+          "utterances": 286,
+          "valid_target_tokens": 6022,
+          "scale_derivative_variance": 0.3949650688210403
+        },
+        "15": {
+          "ce": 1.90987524680975,
+          "scale_derivative": 0.6547011162194128,
+          "entropy_nats": 1.255174128384125,
+          "max_token_probability": 0.7159372520882908,
+          "token_accuracy": 0.6963154728092799,
+          "logit_std": 1.54534087093865,
+          "utterances": 82,
+          "valid_target_tokens": 1543,
+          "scale_derivative_variance": 0.31134656203093913
+        },
+        "17": {
+          "ce": 2.072821008607999,
+          "scale_derivative": 0.7403894595350331,
+          "entropy_nats": 1.332431516290581,
+          "max_token_probability": 0.7039279457716466,
+          "token_accuracy": 0.6687878014977541,
+          "logit_std": 1.5102420824867675,
+          "utterances": 411,
+          "valid_target_tokens": 5616,
+          "scale_derivative_variance": 0.3054655851616228
+        },
+        "20": {
+          "ce": 2.238942832627556,
+          "scale_derivative": 0.767031547475351,
+          "entropy_nats": 1.4719112523554758,
+          "max_token_probability": 0.6777935336075068,
+          "token_accuracy": 0.643538460073112,
+          "logit_std": 1.5158404959794367,
+          "utterances": 239,
+          "valid_target_tokens": 4425,
+          "scale_derivative_variance": 0.32746070728704896
+        },
+        "18": {
+          "ce": 1.482559611736718,
+          "scale_derivative": 0.5463465087478823,
+          "entropy_nats": 0.9362130531315076,
+          "max_token_probability": 0.7742723817542448,
+          "token_accuracy": 0.7494224714020551,
+          "logit_std": 1.5865546525534937,
+          "utterances": 118,
+          "valid_target_tokens": 3499,
+          "scale_derivative_variance": 0.26204613687953904
+        },
+        "11": {
+          "ce": 1.7415862424033028,
+          "scale_derivative": 0.4609027155342379,
+          "entropy_nats": 1.280683475945677,
+          "max_token_probability": 0.7185406457100596,
+          "token_accuracy": 0.7259633892348835,
+          "logit_std": 1.5564326243741171,
+          "utterances": 140,
+          "valid_target_tokens": 2765,
+          "scale_derivative_variance": 0.2979591399231417
+        },
+        "9": {
+          "ce": 1.9252311095358834,
+          "scale_derivative": 0.5807390072353421,
+          "entropy_nats": 1.3444920603245023,
+          "max_token_probability": 0.7004602235697565,
+          "token_accuracy": 0.6771164267427392,
+          "logit_std": 1.556783970386263,
+          "utterances": 252,
+          "valid_target_tokens": 6185,
+          "scale_derivative_variance": 0.329690780195405
+        },
+        "10": {
+          "ce": 2.2193664701617495,
+          "scale_derivative": 0.9106262709413256,
+          "entropy_nats": 1.3087401567977301,
+          "max_token_probability": 0.7069736591407231,
+          "token_accuracy": 0.666795861052007,
+          "logit_std": 1.5112749277328958,
+          "utterances": 98,
+          "valid_target_tokens": 1927,
+          "scale_derivative_variance": 0.38115364243858213
+        },
+        "21": {
+          "ce": 2.123978464813023,
+          "scale_derivative": 0.8348983462444496,
+          "entropy_nats": 1.2890800669953064,
+          "max_token_probability": 0.6959187568544032,
+          "token_accuracy": 0.6601189224274604,
+          "logit_std": 1.5014761489826245,
+          "utterances": 91,
+          "valid_target_tokens": 1337,
+          "scale_derivative_variance": 0.5025025057371149
+        },
+        "25": {
+          "ce": 2.655259495272356,
+          "scale_derivative": 0.9106425131801242,
+          "entropy_nats": 1.7446170006604755,
+          "max_token_probability": 0.6326673015513841,
+          "token_accuracy": 0.6197952270946082,
+          "logit_std": 1.4805743492701475,
+          "utterances": 136,
+          "valid_target_tokens": 1203,
+          "scale_derivative_variance": 0.3491121561860229
+        }
+      },
+      "macro_ce": 2.057878988929475,
+      "macro_entropy_nats": 1.3292499069060033,
+      "macro_max_token_probability": 0.7020894242556627,
+      "macro_token_accuracy": 0.6783491757307011,
+      "macro_logit_std": 1.5276499630683407,
+      "squared_environment_mean_derivative": 0.548962745493322
+    }
+  },
+  "selected_holdout": {
+    "per_group_wer": {
+      "7": 26.034612490594434,
+      "14": 15.022761760242792,
+      "0": 35.143918291550605,
+      "1": 19.367840475180316,
+      "15": 21.79813401187447,
+      "17": 20.741324921135647,
+      "20": 23.923590054578533,
+      "11": 21.70989433237272,
+      "9": 49.49637389202256,
+      "25": 48.006379585326954,
+      "3": 25.27173913043478,
+      "18": 17.20356408498972,
+      "10": 17.294751009421265,
+      "21": 14.029535864978904
+    },
+    "macro_wer": 25.360315707478833,
+    "minmax_gap": 35.46683802704366,
+    "groups": 14,
+    "per_group_error_counts": {
+      "7": {
+        "reference_words": 1329,
+        "hits": 1047,
+        "substitutions": 195,
+        "deletions": 87,
+        "insertions": 64,
+        "utterances": 178
+      },
+      "14": {
+        "reference_words": 1318,
+        "hits": 1177,
+        "substitutions": 90,
+        "deletions": 51,
+        "insertions": 57,
+        "utterances": 133
+      },
+      "0": {
+        "reference_words": 2154,
+        "hits": 1875,
+        "substitutions": 176,
+        "deletions": 103,
+        "insertions": 478,
+        "utterances": 215
+      },
+      "1": {
+        "reference_words": 4714,
+        "hits": 3997,
+        "substitutions": 487,
+        "deletions": 230,
+        "insertions": 196,
+        "utterances": 286
+      },
+      "15": {
+        "reference_words": 1179,
+        "hits": 973,
+        "substitutions": 140,
+        "deletions": 66,
+        "insertions": 51,
+        "utterances": 82
+      },
+      "17": {
+        "reference_words": 3804,
+        "hits": 3112,
+        "substitutions": 412,
+        "deletions": 280,
+        "insertions": 97,
+        "utterances": 411
+      },
+      "20": {
+        "reference_words": 3298,
+        "hits": 2655,
+        "substitutions": 407,
+        "deletions": 236,
+        "insertions": 146,
+        "utterances": 239
+      },
+      "11": {
+        "reference_words": 2082,
+        "hits": 1695,
+        "substitutions": 289,
+        "deletions": 98,
+        "insertions": 65,
+        "utterances": 140
+      },
+      "9": {
+        "reference_words": 4964,
+        "hits": 3657,
+        "substitutions": 1041,
+        "deletions": 266,
+        "insertions": 1150,
+        "utterances": 252
+      },
+      "25": {
+        "reference_words": 627,
+        "hits": 388,
+        "substitutions": 183,
+        "deletions": 56,
+        "insertions": 62,
+        "utterances": 136
+      },
+      "3": {
+        "reference_words": 368,
+        "hits": 285,
+        "substitutions": 55,
+        "deletions": 28,
+        "insertions": 10,
+        "utterances": 23
+      },
+      "18": {
+        "reference_words": 2918,
+        "hits": 2505,
+        "substitutions": 296,
+        "deletions": 117,
+        "insertions": 89,
+        "utterances": 118
+      },
+      "10": {
+        "reference_words": 1486,
+        "hits": 1270,
+        "substitutions": 135,
+        "deletions": 81,
+        "insertions": 41,
+        "utterances": 98
+      },
+      "21": {
+        "reference_words": 948,
+        "hits": 840,
+        "substitutions": 63,
+        "deletions": 45,
+        "insertions": 25,
+        "utterances": 91
+      }
+    },
+    "prediction_diagnostics": {
+      "utterances": 2402,
+      "reference_words": 31189,
+      "hypothesis_words": 31976,
+      "hypothesis_to_reference_word_ratio": 1.0252332553143737,
+      "empty_hypothesis_count": 0,
+      "mean_repeated_4gram_fraction": 0.005550610904868137,
+      "max_hypothesis_words": 440,
+      "mean_hypothesis_words": 13.312239800166529,
+      "per_group": {
+        "7": {
+          "utterances": 178,
+          "reference_words": 1329,
+          "hypothesis_words": 1306,
+          "hypothesis_to_reference_word_ratio": 0.9826937547027841,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0028089887640449437,
+          "max_hypothesis_words": 34,
+          "mean_hypothesis_words": 7.337078651685394,
+          "insertions_rate_percent": 4.815650865312265,
+          "deletions_rate_percent": 6.54627539503386,
+          "substitutions_rate_percent": 14.672686230248306
+        },
+        "14": {
+          "utterances": 133,
+          "reference_words": 1318,
+          "hypothesis_words": 1324,
+          "hypothesis_to_reference_word_ratio": 1.0045523520485584,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0031098976585294683,
+          "max_hypothesis_words": 51,
+          "mean_hypothesis_words": 9.954887218045112,
+          "insertions_rate_percent": 4.324734446130501,
+          "deletions_rate_percent": 3.8694992412746587,
+          "substitutions_rate_percent": 6.828528072837633
+        },
+        "0": {
+          "utterances": 215,
+          "reference_words": 2154,
+          "hypothesis_words": 2529,
+          "hypothesis_to_reference_word_ratio": 1.1740947075208914,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.004702550423074876,
+          "max_hypothesis_words": 440,
+          "mean_hypothesis_words": 11.762790697674419,
+          "insertions_rate_percent": 22.191272051996286,
+          "deletions_rate_percent": 4.7818012999071495,
+          "substitutions_rate_percent": 8.170844939647168
+        },
+        "1": {
+          "utterances": 286,
+          "reference_words": 4714,
+          "hypothesis_words": 4680,
+          "hypothesis_to_reference_word_ratio": 0.9927874416631312,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.007094298955362039,
+          "max_hypothesis_words": 123,
+          "mean_hypothesis_words": 16.363636363636363,
+          "insertions_rate_percent": 4.15782774713619,
+          "deletions_rate_percent": 4.87908358082308,
+          "substitutions_rate_percent": 10.330929147221044
+        },
+        "15": {
+          "utterances": 82,
+          "reference_words": 1179,
+          "hypothesis_words": 1164,
+          "hypothesis_to_reference_word_ratio": 0.9872773536895675,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.004425599747769387,
+          "max_hypothesis_words": 82,
+          "mean_hypothesis_words": 14.195121951219512,
+          "insertions_rate_percent": 4.325699745547074,
+          "deletions_rate_percent": 5.597964376590331,
+          "substitutions_rate_percent": 11.874469889737066
+        },
+        "17": {
+          "utterances": 411,
+          "reference_words": 3804,
+          "hypothesis_words": 3621,
+          "hypothesis_to_reference_word_ratio": 0.9518927444794952,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0012489424321925281,
+          "max_hypothesis_words": 67,
+          "mean_hypothesis_words": 8.81021897810219,
+          "insertions_rate_percent": 2.5499474237644586,
+          "deletions_rate_percent": 7.360672975814932,
+          "substitutions_rate_percent": 10.830704521556257
+        },
+        "20": {
+          "utterances": 239,
+          "reference_words": 3298,
+          "hypothesis_words": 3208,
+          "hypothesis_to_reference_word_ratio": 0.9727107337780473,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.012629914343129668,
+          "max_hypothesis_words": 105,
+          "mean_hypothesis_words": 13.422594142259415,
+          "insertions_rate_percent": 4.426925409338994,
+          "deletions_rate_percent": 7.1558520315342635,
+          "substitutions_rate_percent": 12.340812613705276
+        },
+        "11": {
+          "utterances": 140,
+          "reference_words": 2082,
+          "hypothesis_words": 2049,
+          "hypothesis_to_reference_word_ratio": 0.984149855907781,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0030408791524660053,
+          "max_hypothesis_words": 68,
+          "mean_hypothesis_words": 14.635714285714286,
+          "insertions_rate_percent": 3.121998078770413,
+          "deletions_rate_percent": 4.707012487992315,
+          "substitutions_rate_percent": 13.88088376560999
+        },
+        "9": {
+          "utterances": 252,
+          "reference_words": 4964,
+          "hypothesis_words": 5848,
+          "hypothesis_to_reference_word_ratio": 1.178082191780822,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.012382612675026435,
+          "max_hypothesis_words": 440,
+          "mean_hypothesis_words": 23.206349206349206,
+          "insertions_rate_percent": 23.16680096696213,
+          "deletions_rate_percent": 5.358581788879936,
+          "substitutions_rate_percent": 20.9709911361805
+        },
+        "25": {
+          "utterances": 136,
+          "reference_words": 627,
+          "hypothesis_words": 633,
+          "hypothesis_to_reference_word_ratio": 1.0095693779904307,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.004901960784313725,
+          "max_hypothesis_words": 39,
+          "mean_hypothesis_words": 4.654411764705882,
+          "insertions_rate_percent": 9.88835725677831,
+          "deletions_rate_percent": 8.931419457735247,
+          "substitutions_rate_percent": 29.1866028708134
+        },
+        "3": {
+          "utterances": 23,
+          "reference_words": 368,
+          "hypothesis_words": 350,
+          "hypothesis_to_reference_word_ratio": 0.9510869565217391,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0005238344683080163,
+          "max_hypothesis_words": 86,
+          "mean_hypothesis_words": 15.217391304347826,
+          "insertions_rate_percent": 2.717391304347826,
+          "deletions_rate_percent": 7.608695652173913,
+          "substitutions_rate_percent": 14.945652173913043
+        },
+        "18": {
+          "utterances": 118,
+          "reference_words": 2918,
+          "hypothesis_words": 2890,
+          "hypothesis_to_reference_word_ratio": 0.9904043865661412,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.008664334455896323,
+          "max_hypothesis_words": 93,
+          "mean_hypothesis_words": 24.491525423728813,
+          "insertions_rate_percent": 3.050034270047978,
+          "deletions_rate_percent": 4.009595613433858,
+          "substitutions_rate_percent": 10.143934201507882
+        },
+        "10": {
+          "utterances": 98,
+          "reference_words": 1486,
+          "hypothesis_words": 1446,
+          "hypothesis_to_reference_word_ratio": 0.9730820995962315,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0020396354901585567,
+          "max_hypothesis_words": 82,
+          "mean_hypothesis_words": 14.755102040816327,
+          "insertions_rate_percent": 2.7590847913862717,
+          "deletions_rate_percent": 5.450874831763122,
+          "substitutions_rate_percent": 9.08479138627187
+        },
+        "21": {
+          "utterances": 91,
+          "reference_words": 948,
+          "hypothesis_words": 928,
+          "hypothesis_to_reference_word_ratio": 0.9789029535864979,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0004070004070004076,
+          "max_hypothesis_words": 84,
+          "mean_hypothesis_words": 10.197802197802197,
+          "insertions_rate_percent": 2.6371308016877637,
+          "deletions_rate_percent": 4.746835443037975,
+          "substitutions_rate_percent": 6.6455696202531644
+        }
+      }
+    },
+    "evaluation_rows_fingerprint": "4019a750fdb885e4b460a8e2a1586312a6debcf1e4eb904ebbbdf785aa367217",
+    "teacher_forced_diagnostics": {
+      "mode": "teacher_forced_eval_no_parameter_updates",
+      "groups": 14,
+      "utterances": 2402,
+      "per_group": {
+        "7": {
+          "ce": 0.7187800745916647,
+          "scale_derivative": 0.005101511341237118,
+          "entropy_nats": 0.7136785382342138,
+          "max_token_probability": 0.8745562805888358,
+          "token_accuracy": 0.8722013787607129,
+          "logit_std": 1.6322333230061477,
+          "utterances": 178,
+          "valid_target_tokens": 2170,
+          "scale_derivative_variance": 0.24315058825361968
+        },
+        "14": {
+          "ce": 0.46542326566462117,
+          "scale_derivative": 0.003705348700453016,
+          "entropy_nats": 0.4617178811782733,
+          "max_token_probability": 0.9093990433484989,
+          "token_accuracy": 0.8896942376194144,
+          "logit_std": 1.6414256705377335,
+          "utterances": 133,
+          "valid_target_tokens": 1924,
+          "scale_derivative_variance": 0.16943056853557437
+        },
+        "3": {
+          "ce": 0.8175599031636248,
+          "scale_derivative": 0.144842644829465,
+          "entropy_nats": 0.6727172239967014,
+          "max_token_probability": 0.872009585732999,
+          "token_accuracy": 0.8293190015398938,
+          "logit_std": 1.667270515276038,
+          "utterances": 23,
+          "valid_target_tokens": 466,
+          "scale_derivative_variance": 0.1957218286773231
+        },
+        "0": {
+          "ce": 0.48133559549703847,
+          "scale_derivative": 0.003259521571724394,
+          "entropy_nats": 0.4780760514614887,
+          "max_token_probability": 0.9087025622988856,
+          "token_accuracy": 0.8999323828275814,
+          "logit_std": 1.6524908165599024,
+          "utterances": 215,
+          "valid_target_tokens": 3063,
+          "scale_derivative_variance": 0.18878128439959685
+        },
+        "1": {
+          "ce": 0.7384633266943397,
+          "scale_derivative": 0.06624551303888235,
+          "entropy_nats": 0.672217779109007,
+          "max_token_probability": 0.8718885616822676,
+          "token_accuracy": 0.8515082115268374,
+          "logit_std": 1.667681608166728,
+          "utterances": 286,
+          "valid_target_tokens": 6022,
+          "scale_derivative_variance": 0.24757864125969425
+        },
+        "15": {
+          "ce": 0.6633329605683684,
+          "scale_derivative": -0.028541521837923495,
+          "entropy_nats": 0.6918744288566636,
+          "max_token_probability": 0.8704111903178983,
+          "token_accuracy": 0.8577049850690656,
+          "logit_std": 1.6668825178611568,
+          "utterances": 82,
+          "valid_target_tokens": 1543,
+          "scale_derivative_variance": 0.1366600123563153
+        },
+        "17": {
+          "ce": 0.6357696548301427,
+          "scale_derivative": -0.00018926307336946183,
+          "entropy_nats": 0.6359588860957872,
+          "max_token_probability": 0.8800373125250323,
+          "token_accuracy": 0.862469152014911,
+          "logit_std": 1.6423085078125743,
+          "utterances": 411,
+          "valid_target_tokens": 5616,
+          "scale_derivative_variance": 0.17428352715647916
+        },
+        "20": {
+          "ce": 0.7603243756980858,
+          "scale_derivative": 0.053004653547660575,
+          "entropy_nats": 0.707319686773806,
+          "max_token_probability": 0.8648570511630389,
+          "token_accuracy": 0.8397027181780987,
+          "logit_std": 1.6531954704468221,
+          "utterances": 239,
+          "valid_target_tokens": 4425,
+          "scale_derivative_variance": 0.25826225898799676
+        },
+        "18": {
+          "ce": 0.5973127063016518,
+          "scale_derivative": 0.06186863214420786,
+          "entropy_nats": 0.5354440224877859,
+          "max_token_probability": 0.8948832598783202,
+          "token_accuracy": 0.8757374829660027,
+          "logit_std": 1.6963767136557628,
+          "utterances": 118,
+          "valid_target_tokens": 3499,
+          "scale_derivative_variance": 0.2268009862708707
+        },
+        "11": {
+          "ce": 0.6216793029934966,
+          "scale_derivative": -0.06047309567303663,
+          "entropy_nats": 0.6821523714012333,
+          "max_token_probability": 0.8762959118400301,
+          "token_accuracy": 0.8719174804432052,
+          "logit_std": 1.6778648946966443,
+          "utterances": 140,
+          "valid_target_tokens": 2765,
+          "scale_derivative_variance": 0.1962660570108717
+        },
+        "9": {
+          "ce": 0.8461196114464352,
+          "scale_derivative": 0.030822120104280728,
+          "entropy_nats": 0.8152974643966272,
+          "max_token_probability": 0.8395447570180136,
+          "token_accuracy": 0.8178554665711191,
+          "logit_std": 1.6749162749638633,
+          "utterances": 252,
+          "valid_target_tokens": 6185,
+          "scale_derivative_variance": 0.1912501291701137
+        },
+        "10": {
+          "ce": 0.7022909865315471,
+          "scale_derivative": 0.1202915368437748,
+          "entropy_nats": 0.5819994195611501,
+          "max_token_probability": 0.8904432842926103,
+          "token_accuracy": 0.8472430480986225,
+          "logit_std": 1.6477627559584014,
+          "utterances": 98,
+          "valid_target_tokens": 1927,
+          "scale_derivative_variance": 0.25518801907978234
+        },
+        "21": {
+          "ce": 0.46509480803877445,
+          "scale_derivative": -0.07190499063530056,
+          "entropy_nats": 0.5369997893634079,
+          "max_token_probability": 0.8972842077632527,
+          "token_accuracy": 0.9095721126912715,
+          "logit_std": 1.6381546416125454,
+          "utterances": 91,
+          "valid_target_tokens": 1337,
+          "scale_derivative_variance": 0.4201463467373369
+        },
+        "25": {
+          "ce": 1.1565896012950414,
+          "scale_derivative": 0.18293089013519315,
+          "entropy_nats": 0.9736587069380809,
+          "max_token_probability": 0.8333308578414076,
+          "token_accuracy": 0.800562134341282,
+          "logit_std": 1.6067391467445038,
+          "utterances": 136,
+          "valid_target_tokens": 1203,
+          "scale_derivative_variance": 0.5292150311338665
+        }
+      },
+      "macro_ce": 0.6907197266653452,
+      "macro_entropy_nats": 0.6542223035610162,
+      "macro_max_token_probability": 0.8774031333065064,
+      "macro_token_accuracy": 0.8589585566177156,
+      "macro_logit_std": 1.6546644898070588,
+      "squared_environment_mean_derivative": 0.006470086068957708
+    },
+    "adapter_change_from_pretrained": {
+      "delta_l2": 4.078725838020027,
+      "max_abs_change": 0.010589886456727982,
+      "changed_tensors": 144,
+      "adapter_tensors": 144
+    },
+    "diagnostic_flags": {
+      "holdout_wer_worsened": false,
+      "holdout_ce_worsened": false
+    }
+  },
+  "selection_metric": "holdout_macro_wer",
+  "test_used_for_selection": false,
+  "gap_used_for_selection": false,
+  "eligibility": "macro_wer_below_pretrained",
+  "objective": "environment_mean_prediction_risk_plus_weighted_pair_product_penalty",
+  "irm_penalty_weight": 1.0,
+  "irm_penalty_estimator": "pair_product",
+  "irm_update_version": "irmv1-risk-plus-pair-product-environment-mean-v3",
+  "best_trained_epoch": 2,
+  "best_trained_holdout": {
+    "per_group_wer": {
+      "7": 26.034612490594434,
+      "14": 15.022761760242792,
+      "0": 35.143918291550605,
+      "1": 19.367840475180316,
+      "15": 21.79813401187447,
+      "17": 20.741324921135647,
+      "20": 23.923590054578533,
+      "11": 21.70989433237272,
+      "9": 49.49637389202256,
+      "25": 48.006379585326954,
+      "3": 25.27173913043478,
+      "18": 17.20356408498972,
+      "10": 17.294751009421265,
+      "21": 14.029535864978904
+    },
+    "macro_wer": 25.360315707478833,
+    "minmax_gap": 35.46683802704366,
+    "groups": 14,
+    "per_group_error_counts": {
+      "7": {
+        "reference_words": 1329,
+        "hits": 1047,
+        "substitutions": 195,
+        "deletions": 87,
+        "insertions": 64,
+        "utterances": 178
+      },
+      "14": {
+        "reference_words": 1318,
+        "hits": 1177,
+        "substitutions": 90,
+        "deletions": 51,
+        "insertions": 57,
+        "utterances": 133
+      },
+      "0": {
+        "reference_words": 2154,
+        "hits": 1875,
+        "substitutions": 176,
+        "deletions": 103,
+        "insertions": 478,
+        "utterances": 215
+      },
+      "1": {
+        "reference_words": 4714,
+        "hits": 3997,
+        "substitutions": 487,
+        "deletions": 230,
+        "insertions": 196,
+        "utterances": 286
+      },
+      "15": {
+        "reference_words": 1179,
+        "hits": 973,
+        "substitutions": 140,
+        "deletions": 66,
+        "insertions": 51,
+        "utterances": 82
+      },
+      "17": {
+        "reference_words": 3804,
+        "hits": 3112,
+        "substitutions": 412,
+        "deletions": 280,
+        "insertions": 97,
+        "utterances": 411
+      },
+      "20": {
+        "reference_words": 3298,
+        "hits": 2655,
+        "substitutions": 407,
+        "deletions": 236,
+        "insertions": 146,
+        "utterances": 239
+      },
+      "11": {
+        "reference_words": 2082,
+        "hits": 1695,
+        "substitutions": 289,
+        "deletions": 98,
+        "insertions": 65,
+        "utterances": 140
+      },
+      "9": {
+        "reference_words": 4964,
+        "hits": 3657,
+        "substitutions": 1041,
+        "deletions": 266,
+        "insertions": 1150,
+        "utterances": 252
+      },
+      "25": {
+        "reference_words": 627,
+        "hits": 388,
+        "substitutions": 183,
+        "deletions": 56,
+        "insertions": 62,
+        "utterances": 136
+      },
+      "3": {
+        "reference_words": 368,
+        "hits": 285,
+        "substitutions": 55,
+        "deletions": 28,
+        "insertions": 10,
+        "utterances": 23
+      },
+      "18": {
+        "reference_words": 2918,
+        "hits": 2505,
+        "substitutions": 296,
+        "deletions": 117,
+        "insertions": 89,
+        "utterances": 118
+      },
+      "10": {
+        "reference_words": 1486,
+        "hits": 1270,
+        "substitutions": 135,
+        "deletions": 81,
+        "insertions": 41,
+        "utterances": 98
+      },
+      "21": {
+        "reference_words": 948,
+        "hits": 840,
+        "substitutions": 63,
+        "deletions": 45,
+        "insertions": 25,
+        "utterances": 91
+      }
+    },
+    "prediction_diagnostics": {
+      "utterances": 2402,
+      "reference_words": 31189,
+      "hypothesis_words": 31976,
+      "hypothesis_to_reference_word_ratio": 1.0252332553143737,
+      "empty_hypothesis_count": 0,
+      "mean_repeated_4gram_fraction": 0.005550610904868137,
+      "max_hypothesis_words": 440,
+      "mean_hypothesis_words": 13.312239800166529,
+      "per_group": {
+        "7": {
+          "utterances": 178,
+          "reference_words": 1329,
+          "hypothesis_words": 1306,
+          "hypothesis_to_reference_word_ratio": 0.9826937547027841,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0028089887640449437,
+          "max_hypothesis_words": 34,
+          "mean_hypothesis_words": 7.337078651685394,
+          "insertions_rate_percent": 4.815650865312265,
+          "deletions_rate_percent": 6.54627539503386,
+          "substitutions_rate_percent": 14.672686230248306
+        },
+        "14": {
+          "utterances": 133,
+          "reference_words": 1318,
+          "hypothesis_words": 1324,
+          "hypothesis_to_reference_word_ratio": 1.0045523520485584,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0031098976585294683,
+          "max_hypothesis_words": 51,
+          "mean_hypothesis_words": 9.954887218045112,
+          "insertions_rate_percent": 4.324734446130501,
+          "deletions_rate_percent": 3.8694992412746587,
+          "substitutions_rate_percent": 6.828528072837633
+        },
+        "0": {
+          "utterances": 215,
+          "reference_words": 2154,
+          "hypothesis_words": 2529,
+          "hypothesis_to_reference_word_ratio": 1.1740947075208914,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.004702550423074876,
+          "max_hypothesis_words": 440,
+          "mean_hypothesis_words": 11.762790697674419,
+          "insertions_rate_percent": 22.191272051996286,
+          "deletions_rate_percent": 4.7818012999071495,
+          "substitutions_rate_percent": 8.170844939647168
+        },
+        "1": {
+          "utterances": 286,
+          "reference_words": 4714,
+          "hypothesis_words": 4680,
+          "hypothesis_to_reference_word_ratio": 0.9927874416631312,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.007094298955362039,
+          "max_hypothesis_words": 123,
+          "mean_hypothesis_words": 16.363636363636363,
+          "insertions_rate_percent": 4.15782774713619,
+          "deletions_rate_percent": 4.87908358082308,
+          "substitutions_rate_percent": 10.330929147221044
+        },
+        "15": {
+          "utterances": 82,
+          "reference_words": 1179,
+          "hypothesis_words": 1164,
+          "hypothesis_to_reference_word_ratio": 0.9872773536895675,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.004425599747769387,
+          "max_hypothesis_words": 82,
+          "mean_hypothesis_words": 14.195121951219512,
+          "insertions_rate_percent": 4.325699745547074,
+          "deletions_rate_percent": 5.597964376590331,
+          "substitutions_rate_percent": 11.874469889737066
+        },
+        "17": {
+          "utterances": 411,
+          "reference_words": 3804,
+          "hypothesis_words": 3621,
+          "hypothesis_to_reference_word_ratio": 0.9518927444794952,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0012489424321925281,
+          "max_hypothesis_words": 67,
+          "mean_hypothesis_words": 8.81021897810219,
+          "insertions_rate_percent": 2.5499474237644586,
+          "deletions_rate_percent": 7.360672975814932,
+          "substitutions_rate_percent": 10.830704521556257
+        },
+        "20": {
+          "utterances": 239,
+          "reference_words": 3298,
+          "hypothesis_words": 3208,
+          "hypothesis_to_reference_word_ratio": 0.9727107337780473,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.012629914343129668,
+          "max_hypothesis_words": 105,
+          "mean_hypothesis_words": 13.422594142259415,
+          "insertions_rate_percent": 4.426925409338994,
+          "deletions_rate_percent": 7.1558520315342635,
+          "substitutions_rate_percent": 12.340812613705276
+        },
+        "11": {
+          "utterances": 140,
+          "reference_words": 2082,
+          "hypothesis_words": 2049,
+          "hypothesis_to_reference_word_ratio": 0.984149855907781,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0030408791524660053,
+          "max_hypothesis_words": 68,
+          "mean_hypothesis_words": 14.635714285714286,
+          "insertions_rate_percent": 3.121998078770413,
+          "deletions_rate_percent": 4.707012487992315,
+          "substitutions_rate_percent": 13.88088376560999
+        },
+        "9": {
+          "utterances": 252,
+          "reference_words": 4964,
+          "hypothesis_words": 5848,
+          "hypothesis_to_reference_word_ratio": 1.178082191780822,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.012382612675026435,
+          "max_hypothesis_words": 440,
+          "mean_hypothesis_words": 23.206349206349206,
+          "insertions_rate_percent": 23.16680096696213,
+          "deletions_rate_percent": 5.358581788879936,
+          "substitutions_rate_percent": 20.9709911361805
+        },
+        "25": {
+          "utterances": 136,
+          "reference_words": 627,
+          "hypothesis_words": 633,
+          "hypothesis_to_reference_word_ratio": 1.0095693779904307,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.004901960784313725,
+          "max_hypothesis_words": 39,
+          "mean_hypothesis_words": 4.654411764705882,
+          "insertions_rate_percent": 9.88835725677831,
+          "deletions_rate_percent": 8.931419457735247,
+          "substitutions_rate_percent": 29.1866028708134
+        },
+        "3": {
+          "utterances": 23,
+          "reference_words": 368,
+          "hypothesis_words": 350,
+          "hypothesis_to_reference_word_ratio": 0.9510869565217391,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0005238344683080163,
+          "max_hypothesis_words": 86,
+          "mean_hypothesis_words": 15.217391304347826,
+          "insertions_rate_percent": 2.717391304347826,
+          "deletions_rate_percent": 7.608695652173913,
+          "substitutions_rate_percent": 14.945652173913043
+        },
+        "18": {
+          "utterances": 118,
+          "reference_words": 2918,
+          "hypothesis_words": 2890,
+          "hypothesis_to_reference_word_ratio": 0.9904043865661412,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.008664334455896323,
+          "max_hypothesis_words": 93,
+          "mean_hypothesis_words": 24.491525423728813,
+          "insertions_rate_percent": 3.050034270047978,
+          "deletions_rate_percent": 4.009595613433858,
+          "substitutions_rate_percent": 10.143934201507882
+        },
+        "10": {
+          "utterances": 98,
+          "reference_words": 1486,
+          "hypothesis_words": 1446,
+          "hypothesis_to_reference_word_ratio": 0.9730820995962315,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0020396354901585567,
+          "max_hypothesis_words": 82,
+          "mean_hypothesis_words": 14.755102040816327,
+          "insertions_rate_percent": 2.7590847913862717,
+          "deletions_rate_percent": 5.450874831763122,
+          "substitutions_rate_percent": 9.08479138627187
+        },
+        "21": {
+          "utterances": 91,
+          "reference_words": 948,
+          "hypothesis_words": 928,
+          "hypothesis_to_reference_word_ratio": 0.9789029535864979,
+          "empty_hypothesis_count": 0,
+          "mean_repeated_4gram_fraction": 0.0004070004070004076,
+          "max_hypothesis_words": 84,
+          "mean_hypothesis_words": 10.197802197802197,
+          "insertions_rate_percent": 2.6371308016877637,
+          "deletions_rate_percent": 4.746835443037975,
+          "substitutions_rate_percent": 6.6455696202531644
+        }
+      }
+    },
+    "evaluation_rows_fingerprint": "4019a750fdb885e4b460a8e2a1586312a6debcf1e4eb904ebbbdf785aa367217",
+    "teacher_forced_diagnostics": {
+      "mode": "teacher_forced_eval_no_parameter_updates",
+      "groups": 14,
+      "utterances": 2402,
+      "per_group": {
+        "7": {
+          "ce": 0.7187800745916647,
+          "scale_derivative": 0.005101511341237118,
+          "entropy_nats": 0.7136785382342138,
+          "max_token_probability": 0.8745562805888358,
+          "token_accuracy": 0.8722013787607129,
+          "logit_std": 1.6322333230061477,
+          "utterances": 178,
+          "valid_target_tokens": 2170,
+          "scale_derivative_variance": 0.24315058825361968
+        },
+        "14": {
+          "ce": 0.46542326566462117,
+          "scale_derivative": 0.003705348700453016,
+          "entropy_nats": 0.4617178811782733,
+          "max_token_probability": 0.9093990433484989,
+          "token_accuracy": 0.8896942376194144,
+          "logit_std": 1.6414256705377335,
+          "utterances": 133,
+          "valid_target_tokens": 1924,
+          "scale_derivative_variance": 0.16943056853557437
+        },
+        "3": {
+          "ce": 0.8175599031636248,
+          "scale_derivative": 0.144842644829465,
+          "entropy_nats": 0.6727172239967014,
+          "max_token_probability": 0.872009585732999,
+          "token_accuracy": 0.8293190015398938,
+          "logit_std": 1.667270515276038,
+          "utterances": 23,
+          "valid_target_tokens": 466,
+          "scale_derivative_variance": 0.1957218286773231
+        },
+        "0": {
+          "ce": 0.48133559549703847,
+          "scale_derivative": 0.003259521571724394,
+          "entropy_nats": 0.4780760514614887,
+          "max_token_probability": 0.9087025622988856,
+          "token_accuracy": 0.8999323828275814,
+          "logit_std": 1.6524908165599024,
+          "utterances": 215,
+          "valid_target_tokens": 3063,
+          "scale_derivative_variance": 0.18878128439959685
+        },
+        "1": {
+          "ce": 0.7384633266943397,
+          "scale_derivative": 0.06624551303888235,
+          "entropy_nats": 0.672217779109007,
+          "max_token_probability": 0.8718885616822676,
+          "token_accuracy": 0.8515082115268374,
+          "logit_std": 1.667681608166728,
+          "utterances": 286,
+          "valid_target_tokens": 6022,
+          "scale_derivative_variance": 0.24757864125969425
+        },
+        "15": {
+          "ce": 0.6633329605683684,
+          "scale_derivative": -0.028541521837923495,
+          "entropy_nats": 0.6918744288566636,
+          "max_token_probability": 0.8704111903178983,
+          "token_accuracy": 0.8577049850690656,
+          "logit_std": 1.6668825178611568,
+          "utterances": 82,
+          "valid_target_tokens": 1543,
+          "scale_derivative_variance": 0.1366600123563153
+        },
+        "17": {
+          "ce": 0.6357696548301427,
+          "scale_derivative": -0.00018926307336946183,
+          "entropy_nats": 0.6359588860957872,
+          "max_token_probability": 0.8800373125250323,
+          "token_accuracy": 0.862469152014911,
+          "logit_std": 1.6423085078125743,
+          "utterances": 411,
+          "valid_target_tokens": 5616,
+          "scale_derivative_variance": 0.17428352715647916
+        },
+        "20": {
+          "ce": 0.7603243756980858,
+          "scale_derivative": 0.053004653547660575,
+          "entropy_nats": 0.707319686773806,
+          "max_token_probability": 0.8648570511630389,
+          "token_accuracy": 0.8397027181780987,
+          "logit_std": 1.6531954704468221,
+          "utterances": 239,
+          "valid_target_tokens": 4425,
+          "scale_derivative_variance": 0.25826225898799676
+        },
+        "18": {
+          "ce": 0.5973127063016518,
+          "scale_derivative": 0.06186863214420786,
+          "entropy_nats": 0.5354440224877859,
+          "max_token_probability": 0.8948832598783202,
+          "token_accuracy": 0.8757374829660027,
+          "logit_std": 1.6963767136557628,
+          "utterances": 118,
+          "valid_target_tokens": 3499,
+          "scale_derivative_variance": 0.2268009862708707
+        },
+        "11": {
+          "ce": 0.6216793029934966,
+          "scale_derivative": -0.06047309567303663,
+          "entropy_nats": 0.6821523714012333,
+          "max_token_probability": 0.8762959118400301,
+          "token_accuracy": 0.8719174804432052,
+          "logit_std": 1.6778648946966443,
+          "utterances": 140,
+          "valid_target_tokens": 2765,
+          "scale_derivative_variance": 0.1962660570108717
+        },
+        "9": {
+          "ce": 0.8461196114464352,
+          "scale_derivative": 0.030822120104280728,
+          "entropy_nats": 0.8152974643966272,
+          "max_token_probability": 0.8395447570180136,
+          "token_accuracy": 0.8178554665711191,
+          "logit_std": 1.6749162749638633,
+          "utterances": 252,
+          "valid_target_tokens": 6185,
+          "scale_derivative_variance": 0.1912501291701137
+        },
+        "10": {
+          "ce": 0.7022909865315471,
+          "scale_derivative": 0.1202915368437748,
+          "entropy_nats": 0.5819994195611501,
+          "max_token_probability": 0.8904432842926103,
+          "token_accuracy": 0.8472430480986225,
+          "logit_std": 1.6477627559584014,
+          "utterances": 98,
+          "valid_target_tokens": 1927,
+          "scale_derivative_variance": 0.25518801907978234
+        },
+        "21": {
+          "ce": 0.46509480803877445,
+          "scale_derivative": -0.07190499063530056,
+          "entropy_nats": 0.5369997893634079,
+          "max_token_probability": 0.8972842077632527,
+          "token_accuracy": 0.9095721126912715,
+          "logit_std": 1.6381546416125454,
+          "utterances": 91,
+          "valid_target_tokens": 1337,
+          "scale_derivative_variance": 0.4201463467373369
+        },
+        "25": {
+          "ce": 1.1565896012950414,
+          "scale_derivative": 0.18293089013519315,
+          "entropy_nats": 0.9736587069380809,
+          "max_token_probability": 0.8333308578414076,
+          "token_accuracy": 0.800562134341282,
+          "logit_std": 1.6067391467445038,
+          "utterances": 136,
+          "valid_target_tokens": 1203,
+          "scale_derivative_variance": 0.5292150311338665
+        }
+      },
+      "macro_ce": 0.6907197266653452,
+      "macro_entropy_nats": 0.6542223035610162,
+      "macro_max_token_probability": 0.8774031333065064,
+      "macro_token_accuracy": 0.8589585566177156,
+      "macro_logit_std": 1.6546644898070588,
+      "squared_environment_mean_derivative": 0.006470086068957708
+    },
+    "adapter_change_from_pretrained": {
+      "delta_l2": 4.078725838020027,
+      "max_abs_change": 0.010589886456727982,
+      "changed_tensors": 144,
+      "adapter_tensors": 144
+    },
+    "diagnostic_flags": {
+      "holdout_wer_worsened": false,
+      "holdout_ce_worsened": false
+    }
+  },
+  "best_trained_updates": 270,
+  "best_trained_sha256": "bfeb62d96d62b7dcb137a1b57c847b73a4c1f27429d5cc3cbb48bc737c9636bb",
+  "total_optimizer_updates": 675,
+  "selected_predictor_role": "selected_trained_checkpoint"
+}

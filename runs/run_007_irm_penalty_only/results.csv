@@ -1,0 +1,3 @@
+method,macro_wer,minmax_gap,groups,paper_macro_wer,paper_minmax_gap,macro_difference_from_paper,gap_difference_from_paper,selected_epoch,selection_status,macro_delta_vs_baseline,gap_delta_vs_baseline,both_metrics_below_baseline
+w/o FT,24.267702829612286,26.230805025593302,26,67.8,120.5,-43.53229717038771,-94.2691949744067,,pretrained_baseline,0.0,0.0,False
+IRM,24.267702829612286,26.230805025593302,26,43.8,53.2,-19.53229717038771,-26.9691949744067,0,pretrained_retained,0.0,0.0,False

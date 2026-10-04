@@ -1,0 +1,47 @@
+{
+  "latest_run_number": 8,
+  "numbering_rule": "Higher numbers identify later experiments; gaps preserve original experiment identity.",
+  "runs": [
+    {
+      "number": 3,
+      "directory": "run_003_erm",
+      "method": "ERM",
+      "status": "complete",
+      "selected_epoch": 1,
+      "selection_status": "finetuned_selected"
+    },
+    {
+      "number": 4,
+      "directory": "run_004_sd",
+      "method": "SD",
+      "status": "complete",
+      "selected_epoch": 2,
+      "selection_status": "finetuned_selected"
+    },
+    {
+      "number": 5,
+      "directory": "run_005_group_dro",
+      "method": "DRO",
+      "status": "complete",
+      "selected_epoch": 2,
+      "selection_status": "finetuned_selected"
+    },
+    {
+      "number": 7,
+      "directory": "run_007_irm_penalty_only",
+      "method": "IRM",
+      "status": "complete",
+      "selected_epoch": 0,
+      "selection_status": "pretrained_retained",
+      "objective_variant": "penalty_only_ablation"
+    },
+    {
+      "number": 8,
+      "directory": "run_008_irm",
+      "method": "IRM",
+      "status": "complete",
+      "selected_epoch": 2,
+      "selection_status": "finetuned_selected"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Install a CUDA-enabled PyTorch build appropriate for the system separately.
+# Completed experiments used torch 2.8.0; do not replace it with a CPU-only build.
+transformers==4.46.3
+peft==0.13.2
+accelerate==1.2.1
+datasets==3.1.0
+librosa==0.10.2.post1
+soundfile==0.13.1
+jiwer==4.0.0
+huggingface-hub==0.36.0
+matplotlib==3.9.3
+numpy==1.26.4
+tqdm>=4.66,<5
+safetensors>=0.4.3,<1

@@ -1,0 +1,772 @@
+{
+  "w/o FT": {
+    "per_group_wer": {
+      "18": 24.41351888667992,
+      "13": 26.73163940132266,
+      "14": 21.831847579094564,
+      "21": 24.242424242424242,
+      "17": 30.386300278773398,
+      "16": 29.06287501363686,
+      "22": 39.08794788273616,
+      "24": 25.859127467706557,
+      "12": 32.46183324062056,
+      "4": 22.880993150684933,
+      "2": 17.26716519374575,
+      "23": 14.45945945945946,
+      "15": 21.76196032672112,
+      "20": 26.724436741767764,
+      "9": 16.362995180439636,
+      "11": 28.23708627613904,
+      "10": 20.23837345174106,
+      "25": 37.69563426688632,
+      "8": 23.823051948051948,
+      "19": 24.5993031358885,
+      "0": 22.686151704940848,
+      "1": 28.521341463414632,
+      "7": 18.226018396846253,
+      "3": 12.857142857142858,
+      "5": 22.741844239109938,
+      "6": 17.7998017839445
+    },
+    "macro_wer": 24.267702829612286,
+    "minmax_gap": 26.230805025593302,
+    "groups": 26,
+    "per_group_error_counts": {
+      "18": {
+        "reference_words": 2515,
+        "hits": 1964,
+        "substitutions": 289,
+        "deletions": 262,
+        "insertions": 63,
+        "utterances": 196
+      },
+      "13": {
+        "reference_words": 11492,
+        "hits": 9043,
+        "substitutions": 756,
+        "deletions": 1693,
+        "insertions": 623,
+        "utterances": 643
+      },
+      "14": {
+        "reference_words": 5721,
+        "hits": 4573,
+        "substitutions": 402,
+        "deletions": 746,
+        "insertions": 101,
+        "utterances": 390
+      },
+      "21": {
+        "reference_words": 11913,
+        "hits": 9317,
+        "substitutions": 983,
+        "deletions": 1613,
+        "insertions": 292,
+        "utterances": 774
+      },
+      "17": {
+        "reference_words": 2511,
+        "hits": 1801,
+        "substitutions": 250,
+        "deletions": 460,
+        "insertions": 53,
+        "utterances": 236
+      },
+      "16": {
+        "reference_words": 27499,
+        "hits": 20110,
+        "substitutions": 3101,
+        "deletions": 4288,
+        "insertions": 603,
+        "utterances": 1336
+      },
+      "22": {
+        "reference_words": 921,
+        "hits": 578,
+        "substitutions": 103,
+        "deletions": 240,
+        "insertions": 17,
+        "utterances": 77
+      },
+      "24": {
+        "reference_words": 8206,
+        "hits": 6258,
+        "substitutions": 545,
+        "deletions": 1403,
+        "insertions": 174,
+        "utterances": 272
+      },
+      "12": {
+        "reference_words": 16179,
+        "hits": 12078,
+        "substitutions": 1760,
+        "deletions": 2341,
+        "insertions": 1151,
+        "utterances": 1126
+      },
+      "4": {
+        "reference_words": 4672,
+        "hits": 3670,
+        "substitutions": 344,
+        "deletions": 658,
+        "insertions": 67,
+        "utterances": 356
+      },
+      "2": {
+        "reference_words": 1471,
+        "hits": 1234,
+        "substitutions": 95,
+        "deletions": 142,
+        "insertions": 17,
+        "utterances": 65
+      },
+      "23": {
+        "reference_words": 1480,
+        "hits": 1273,
+        "substitutions": 57,
+        "deletions": 150,
+        "insertions": 7,
+        "utterances": 63
+      },
+      "15": {
+        "reference_words": 3428,
+        "hits": 2837,
+        "substitutions": 228,
+        "deletions": 363,
+        "insertions": 155,
+        "utterances": 130
+      },
+      "20": {
+        "reference_words": 2885,
+        "hits": 2168,
+        "substitutions": 280,
+        "deletions": 437,
+        "insertions": 54,
+        "utterances": 178
+      },
+      "9": {
+        "reference_words": 8507,
+        "hits": 7255,
+        "substitutions": 585,
+        "deletions": 667,
+        "insertions": 140,
+        "utterances": 345
+      },
+      "11": {
+        "reference_words": 7221,
+        "hits": 5484,
+        "substitutions": 1046,
+        "deletions": 691,
+        "insertions": 302,
+        "utterances": 452
+      },
+      "10": {
+        "reference_words": 4279,
+        "hits": 3480,
+        "substitutions": 279,
+        "deletions": 520,
+        "insertions": 67,
+        "utterances": 263
+      },
+      "25": {
+        "reference_words": 9712,
+        "hits": 6211,
+        "substitutions": 1262,
+        "deletions": 2239,
+        "insertions": 160,
+        "utterances": 571
+      },
+      "8": {
+        "reference_words": 2464,
+        "hits": 1920,
+        "substitutions": 179,
+        "deletions": 365,
+        "insertions": 43,
+        "utterances": 209
+      },
+      "19": {
+        "reference_words": 1435,
+        "hits": 1109,
+        "substitutions": 128,
+        "deletions": 198,
+        "insertions": 27,
+        "utterances": 93
+      },
+      "0": {
+        "reference_words": 2874,
+        "hits": 2257,
+        "substitutions": 183,
+        "deletions": 434,
+        "insertions": 35,
+        "utterances": 92
+      },
+      "1": {
+        "reference_words": 6560,
+        "hits": 5004,
+        "substitutions": 507,
+        "deletions": 1049,
+        "insertions": 315,
+        "utterances": 251
+      },
+      "7": {
+        "reference_words": 7610,
+        "hits": 6360,
+        "substitutions": 559,
+        "deletions": 691,
+        "insertions": 137,
+        "utterances": 273
+      },
+      "3": {
+        "reference_words": 1540,
+        "hits": 1356,
+        "substitutions": 57,
+        "deletions": 127,
+        "insertions": 14,
+        "utterances": 76
+      },
+      "5": {
+        "reference_words": 5303,
+        "hits": 4349,
+        "substitutions": 298,
+        "deletions": 656,
+        "insertions": 252,
+        "utterances": 263
+      },
+      "6": {
+        "reference_words": 5045,
+        "hits": 4191,
+        "substitutions": 164,
+        "deletions": 690,
+        "insertions": 44,
+        "utterances": 349
+      }
+    },
+    "evaluation_rows_fingerprint": "185098443e1a07100129c3badc2eb3c5ac5bbc357c43c1431b0132fab0a82da9",
+    "prediction_file": "predictions/w_o_FT.jsonl"
+  },
+  "ERM": {
+    "per_group_wer": {
+      "18": 20.47713717693837,
+      "13": 14.775495997215454,
+      "14": 26.830973606012936,
+      "21": 18.33291362377235,
+      "17": 31.461569095977698,
+      "16": 29.110149459980363,
+      "22": 28.664495114006513,
+      "24": 18.523031927857666,
+      "12": 26.48494962605847,
+      "4": 14.683219178082192,
+      "2": 15.975526852481305,
+      "23": 10.54054054054054,
+      "15": 21.266044340723454,
+      "20": 46.37781629116118,
+      "9": 12.907017750088162,
+      "11": 28.63869270184185,
+      "10": 15.283944846926852,
+      "25": 36.779242174629324,
+      "8": 16.9237012987013,
+      "19": 17.49128919860627,
+      "0": 14.30062630480167,
+      "1": 19.817073170731707,
+      "7": 14.441524310118265,
+      "3": 9.74025974025974,
+      "5": 14.35036771638695,
+      "6": 10.882061446977206
+    },
+    "macro_wer": 20.579217826572226,
+    "minmax_gap": 36.637556550901444,
+    "groups": 26,
+    "per_group_error_counts": {
+      "18": {
+        "reference_words": 2515,
+        "hits": 2080,
+        "substitutions": 282,
+        "deletions": 153,
+        "insertions": 80,
+        "utterances": 196
+      },
+      "13": {
+        "reference_words": 11492,
+        "hits": 10144,
+        "substitutions": 836,
+        "deletions": 512,
+        "insertions": 350,
+        "utterances": 643
+      },
+      "14": {
+        "reference_words": 5721,
+        "hits": 4858,
+        "substitutions": 551,
+        "deletions": 312,
+        "insertions": 672,
+        "utterances": 390
+      },
+      "21": {
+        "reference_words": 11913,
+        "hits": 10172,
+        "substitutions": 1150,
+        "deletions": 591,
+        "insertions": 443,
+        "utterances": 774
+      },
+      "17": {
+        "reference_words": 2511,
+        "hits": 2004,
+        "substitutions": 317,
+        "deletions": 190,
+        "insertions": 283,
+        "utterances": 236
+      },
+      "16": {
+        "reference_words": 27499,
+        "hits": 22115,
+        "substitutions": 3447,
+        "deletions": 1937,
+        "insertions": 2621,
+        "utterances": 1336
+      },
+      "22": {
+        "reference_words": 921,
+        "hits": 709,
+        "substitutions": 125,
+        "deletions": 87,
+        "insertions": 52,
+        "utterances": 77
+      },
+      "24": {
+        "reference_words": 8206,
+        "hits": 6983,
+        "substitutions": 639,
+        "deletions": 584,
+        "insertions": 297,
+        "utterances": 272
+      },
+      "12": {
+        "reference_words": 16179,
+        "hits": 12962,
+        "substitutions": 2041,
+        "deletions": 1176,
+        "insertions": 1068,
+        "utterances": 1126
+      },
+      "4": {
+        "reference_words": 4672,
+        "hits": 4065,
+        "substitutions": 352,
+        "deletions": 255,
+        "insertions": 79,
+        "utterances": 356
+      },
+      "2": {
+        "reference_words": 1471,
+        "hits": 1281,
+        "substitutions": 115,
+        "deletions": 75,
+        "insertions": 45,
+        "utterances": 65
+      },
+      "23": {
+        "reference_words": 1480,
+        "hits": 1344,
+        "substitutions": 66,
+        "deletions": 70,
+        "insertions": 20,
+        "utterances": 63
+      },
+      "15": {
+        "reference_words": 3428,
+        "hits": 2889,
+        "substitutions": 289,
+        "deletions": 250,
+        "insertions": 190,
+        "utterances": 130
+      },
+      "20": {
+        "reference_words": 2885,
+        "hits": 2364,
+        "substitutions": 362,
+        "deletions": 159,
+        "insertions": 817,
+        "utterances": 178
+      },
+      "9": {
+        "reference_words": 8507,
+        "hits": 7612,
+        "substitutions": 608,
+        "deletions": 287,
+        "insertions": 203,
+        "utterances": 345
+      },
+      "11": {
+        "reference_words": 7221,
+        "hits": 5808,
+        "substitutions": 1143,
+        "deletions": 270,
+        "insertions": 655,
+        "utterances": 452
+      },
+      "10": {
+        "reference_words": 4279,
+        "hits": 3716,
+        "substitutions": 294,
+        "deletions": 269,
+        "insertions": 91,
+        "utterances": 263
+      },
+      "25": {
+        "reference_words": 9712,
+        "hits": 7390,
+        "substitutions": 1455,
+        "deletions": 867,
+        "insertions": 1250,
+        "utterances": 571
+      },
+      "8": {
+        "reference_words": 2464,
+        "hits": 2113,
+        "substitutions": 206,
+        "deletions": 145,
+        "insertions": 66,
+        "utterances": 209
+      },
+      "19": {
+        "reference_words": 1435,
+        "hits": 1220,
+        "substitutions": 144,
+        "deletions": 71,
+        "insertions": 36,
+        "utterances": 93
+      },
+      "0": {
+        "reference_words": 2874,
+        "hits": 2527,
+        "substitutions": 180,
+        "deletions": 167,
+        "insertions": 64,
+        "utterances": 92
+      },
+      "1": {
+        "reference_words": 6560,
+        "hits": 5474,
+        "substitutions": 640,
+        "deletions": 446,
+        "insertions": 214,
+        "utterances": 251
+      },
+      "7": {
+        "reference_words": 7610,
+        "hits": 6692,
+        "substitutions": 616,
+        "deletions": 302,
+        "insertions": 181,
+        "utterances": 273
+      },
+      "3": {
+        "reference_words": 1540,
+        "hits": 1418,
+        "substitutions": 71,
+        "deletions": 51,
+        "insertions": 28,
+        "utterances": 76
+      },
+      "5": {
+        "reference_words": 5303,
+        "hits": 4633,
+        "substitutions": 357,
+        "deletions": 313,
+        "insertions": 91,
+        "utterances": 263
+      },
+      "6": {
+        "reference_words": 5045,
+        "hits": 4578,
+        "substitutions": 250,
+        "deletions": 217,
+        "insertions": 82,
+        "utterances": 349
+      }
+    },
+    "evaluation_rows_fingerprint": "185098443e1a07100129c3badc2eb3c5ac5bbc357c43c1431b0132fab0a82da9",
+    "selection": {
+      "selected_epoch": 1,
+      "status": "finetuned_selected",
+      "baseline_holdout": {
+        "per_group_wer": {
+          "7": 34.762979683972915,
+          "14": 20.71320182094082,
+          "0": 21.72701949860724,
+          "1": 27.25922783198982,
+          "15": 64.8854961832061,
+          "17": 29.52155625657203,
+          "20": 30.503335354760463,
+          "11": 26.320845341018252,
+          "9": 45.74939564867043,
+          "25": 52.15311004784689,
+          "3": 32.880434782608695,
+          "18": 21.281699794379712,
+          "10": 24.226110363391655,
+          "21": 24.78902953586498
+        },
+        "macro_wer": 32.626674438845,
+        "minmax_gap": 44.172294362265276,
+        "groups": 14,
+        "per_group_error_counts": {
+          "7": {
+            "reference_words": 1329,
+            "hits": 912,
+            "substitutions": 195,
+            "deletions": 222,
+            "insertions": 45,
+            "utterances": 178
+          },
+          "14": {
+            "reference_words": 1318,
+            "hits": 1074,
+            "substitutions": 104,
+            "deletions": 140,
+            "insertions": 29,
+            "utterances": 133
+          },
+          "0": {
+            "reference_words": 2154,
+            "hits": 1738,
+            "substitutions": 173,
+            "deletions": 243,
+            "insertions": 52,
+            "utterances": 215
+          },
+          "1": {
+            "reference_words": 4714,
+            "hits": 3539,
+            "substitutions": 401,
+            "deletions": 774,
+            "insertions": 110,
+            "utterances": 286
+          },
+          "15": {
+            "reference_words": 1179,
+            "hits": 885,
+            "substitutions": 139,
+            "deletions": 155,
+            "insertions": 471,
+            "utterances": 82
+          },
+          "17": {
+            "reference_words": 3804,
+            "hits": 2734,
+            "substitutions": 375,
+            "deletions": 695,
+            "insertions": 53,
+            "utterances": 411
+          },
+          "20": {
+            "reference_words": 3298,
+            "hits": 2399,
+            "substitutions": 364,
+            "deletions": 535,
+            "insertions": 107,
+            "utterances": 239
+          },
+          "11": {
+            "reference_words": 2082,
+            "hits": 1578,
+            "substitutions": 245,
+            "deletions": 259,
+            "insertions": 44,
+            "utterances": 140
+          },
+          "9": {
+            "reference_words": 4964,
+            "hits": 3228,
+            "substitutions": 932,
+            "deletions": 804,
+            "insertions": 535,
+            "utterances": 252
+          },
+          "25": {
+            "reference_words": 627,
+            "hits": 336,
+            "substitutions": 165,
+            "deletions": 126,
+            "insertions": 36,
+            "utterances": 136
+          },
+          "3": {
+            "reference_words": 368,
+            "hits": 255,
+            "substitutions": 46,
+            "deletions": 67,
+            "insertions": 8,
+            "utterances": 23
+          },
+          "18": {
+            "reference_words": 2918,
+            "hits": 2352,
+            "substitutions": 248,
+            "deletions": 318,
+            "insertions": 55,
+            "utterances": 118
+          },
+          "10": {
+            "reference_words": 1486,
+            "hits": 1166,
+            "substitutions": 116,
+            "deletions": 204,
+            "insertions": 40,
+            "utterances": 98
+          },
+          "21": {
+            "reference_words": 948,
+            "hits": 731,
+            "substitutions": 77,
+            "deletions": 140,
+            "insertions": 18,
+            "utterances": 91
+          }
+        },
+        "evaluation_rows_fingerprint": "4019a750fdb885e4b460a8e2a1586312a6debcf1e4eb904ebbbdf785aa367217"
+      },
+      "selected_holdout": {
+        "per_group_wer": {
+          "7": 27.012791572610986,
+          "14": 15.553869499241275,
+          "0": 55.94243268337976,
+          "1": 19.770895205770046,
+          "15": 21.289228159457167,
+          "17": 21.293375394321767,
+          "20": 23.80230442692541,
+          "11": 24.25552353506244,
+          "9": 41.43835616438356,
+          "25": 49.920255183413076,
+          "3": 29.891304347826086,
+          "18": 17.511994516792324,
+          "10": 17.900403768506056,
+          "21": 15.40084388185654
+        },
+        "macro_wer": 27.21311273853903,
+        "minmax_gap": 40.54158880152322,
+        "groups": 14,
+        "per_group_error_counts": {
+          "7": {
+            "reference_words": 1329,
+            "hits": 1036,
+            "substitutions": 199,
+            "deletions": 94,
+            "insertions": 66,
+            "utterances": 178
+          },
+          "14": {
+            "reference_words": 1318,
+            "hits": 1165,
+            "substitutions": 93,
+            "deletions": 60,
+            "insertions": 52,
+            "utterances": 133
+          },
+          "0": {
+            "reference_words": 2154,
+            "hits": 1852,
+            "substitutions": 181,
+            "deletions": 121,
+            "insertions": 903,
+            "utterances": 215
+          },
+          "1": {
+            "reference_words": 4714,
+            "hits": 3962,
+            "substitutions": 474,
+            "deletions": 278,
+            "insertions": 180,
+            "utterances": 286
+          },
+          "15": {
+            "reference_words": 1179,
+            "hits": 973,
+            "substitutions": 134,
+            "deletions": 72,
+            "insertions": 45,
+            "utterances": 82
+          },
+          "17": {
+            "reference_words": 3804,
+            "hits": 3083,
+            "substitutions": 399,
+            "deletions": 322,
+            "insertions": 89,
+            "utterances": 411
+          },
+          "20": {
+            "reference_words": 3298,
+            "hits": 2641,
+            "substitutions": 408,
+            "deletions": 249,
+            "insertions": 128,
+            "utterances": 239
+          },
+          "11": {
+            "reference_words": 2082,
+            "hits": 1645,
+            "substitutions": 295,
+            "deletions": 142,
+            "insertions": 68,
+            "utterances": 140
+          },
+          "9": {
+            "reference_words": 4964,
+            "hits": 3620,
+            "substitutions": 1037,
+            "deletions": 307,
+            "insertions": 713,
+            "utterances": 252
+          },
+          "25": {
+            "reference_words": 627,
+            "hits": 376,
+            "substitutions": 188,
+            "deletions": 63,
+            "insertions": 62,
+            "utterances": 136
+          },
+          "3": {
+            "reference_words": 368,
+            "hits": 270,
+            "substitutions": 62,
+            "deletions": 36,
+            "insertions": 12,
+            "utterances": 23
+          },
+          "18": {
+            "reference_words": 2918,
+            "hits": 2500,
+            "substitutions": 298,
+            "deletions": 120,
+            "insertions": 93,
+            "utterances": 118
+          },
+          "10": {
+            "reference_words": 1486,
+            "hits": 1258,
+            "substitutions": 137,
+            "deletions": 91,
+            "insertions": 38,
+            "utterances": 98
+          },
+          "21": {
+            "reference_words": 948,
+            "hits": 825,
+            "substitutions": 76,
+            "deletions": 47,
+            "insertions": 23,
+            "utterances": 91
+          }
+        },
+        "evaluation_rows_fingerprint": "4019a750fdb885e4b460a8e2a1586312a6debcf1e4eb904ebbbdf785aa367217"
+      },
+      "selection_metric": "holdout_macro_wer",
+      "test_used_for_selection": false,
+      "gap_used_for_selection": true,
+      "eligibility": "both_holdout_metrics_below_pretrained"
+    },
+    "prediction_file": "predictions/ERM.jsonl"
+  }
+}

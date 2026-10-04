@@ -1,0 +1,4 @@
+method,macro_wer,minmax_gap,groups,paper_macro_wer,paper_minmax_gap,macro_difference_from_paper,gap_difference_from_paper,selected_epoch,selection_status,macro_delta_vs_baseline,gap_delta_vs_baseline,both_metrics_below_baseline,result_label,predictor_role,prediction_file
+w/o FT,24.267702829612286,26.230805025593302,26,67.8,120.5,-43.53229717038771,-94.2691949744067,,pretrained_baseline,0.0,0.0,False,w/o FT,pretrained_baseline,predictions/w_o_FT.jsonl
+IRM,22.11440130700608,67.96675594769182,26,43.8,53.2,-21.685598692993917,14.76675594769182,2,finetuned_selected,-2.153301522606206,41.735950922098525,False,IRM selected trained checkpoint,selected_trained_checkpoint,predictions/IRM.jsonl
+IRM_trained,22.11440130700608,67.96675594769182,26,43.8,53.2,-21.685598692993917,14.76675594769182,2,trained_checkpoint_reported,-2.153301522606206,41.735950922098525,False,IRM best trained checkpoint,best_trained_checkpoint,predictions/IRM.jsonl
