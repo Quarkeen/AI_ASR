@@ -14,7 +14,23 @@ Keywords: automatic speech recognition, Transformer, transfer learning, LoRA, fa
 
 ## Contents
 
-[[CONTENTS]]
+- [1 Introduction](#1-introduction)
+- [2 Project Development and Experimental Sequence](#2-project-development-and-experimental-sequence)
+- [3 Dataset and Experimental Protocol](#3-dataset-and-experimental-protocol)
+- [4 Audio and Transcript Preparation](#4-audio-and-transcript-preparation)
+- [5 Whisper and the Deep Learning Architecture](#5-whisper-and-the-deep-learning-architecture)
+- [6 Supervised Loss and Optimization](#6-supervised-loss-and-optimization)
+- [7 Fine Tuning Objectives](#7-fine-tuning-objectives)
+- [8 Inference and Evaluation](#8-inference-and-evaluation)
+- [9 Experimental Results](#9-experimental-results)
+- [10 Failure Analysis](#10-failure-analysis)
+- [11 Implementation Validation and Efficient Computation](#11-implementation-validation-and-efficient-computation)
+- [12 Comparison With the Paper and Study Limitations](#12-comparison-with-the-paper-and-study-limitations)
+- [13 Future Work](#13-future-work)
+- [14 Conclusion](#14-conclusion)
+- [Appendix A Research Artifacts and Reproduction Settings](#appendix-a-research-artifacts-and-reproduction-settings)
+- [Appendix B Per Group Test Word Error Rate](#appendix-b-per-group-test-word-error-rate)
+- [References](#references)
 
 ## 1 Introduction
 
